@@ -1,0 +1,24 @@
+1. npm init > install dependencies from package.json
+2. use cmd to navigate to mongo 
+	Mongo Commands: 
+	show dbs 
+	use <<dbname>> 
+	show collections 
+	db.createCollection('books')
+	db.<<collection>>.insert({name:'property'})
+	db.<<collection>>.find() = list all collections 
+	
+		db.books.insert({
+		title: 'Dont Tell', 
+		genre: 'Suspense',
+		description: 'It was a desperate plan. But Mary Grace Winters knew the only way to save herself and her child from her abusive cop husband was to stage their own death. Now all that remains of their former life is at the bottom of a lake.',
+		author: 'Karen Rose', 
+		publisher: 'GoodReads author', 
+		pages: '501',
+		image_url: 'https://images.gr-assets.com/books/1388333205l/248086.jpg',
+		buy_url: 'https://www.goodreads.com/book/show/248086.Don_t_Tell'
+	});
+
+	
+3. Angular 
+	 bower install --save bootsrap angular-route jquery

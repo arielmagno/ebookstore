@@ -1,0 +1,30 @@
+<br>
+<a href="#/books">Go Back</a>
+<div class="card-block" ng-init="getBook()">
+    <div class="card-header">{{book.title}}</div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="{{book.image_url}}">
+            </div>
+            <div class="col-md-8">
+                <p class="card-text">{{book.description}}</p>
+                <ul class="list-group">
+                    <li class="list-group-item">Genre: {{book.genre}}</li>
+                    <li class="list-group-item">Author: {{book.author}}</li>
+                    <li class="list-group-item">Publisher: {{book.publisher}}</li>
+                    <li class="list-group-item">Pages: {{book.pages}}</li>
+                </ul>
+                <br>
+                <a target="_blank" href="{{book.buy_url}}" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="float-right">
+        <a href="#/books/edit/{{book._id}}">Edit | </a>
+        <a href="#" ng-click="removeBook(book._id)">Delete</a>
+    </div>
+</div>
+</div>
