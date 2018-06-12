@@ -1,16 +1,28 @@
 {
   "name": "bookstore",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "*",
-    "body-parser": "*",
-    "mongoose": "*"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.5"
   },
   "author": "Ariel Magno",
-  "license": "ISC"
-}
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielmagno/ebookstore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arielmagno/ebookstore/issues"
+  },
+  "homepage": "https://github.com/arielmagno/ebookstore#readme",
+  "description": ""
+},
+"engines": {
+    "node": "10.3.0"
+  },
